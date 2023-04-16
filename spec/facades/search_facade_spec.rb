@@ -11,7 +11,7 @@ RSpec.describe SearchFacade do
     end
 
     it "has a full address" do 
-      expect(@facade.route_start).to be_a(String)
+      expect(@facade.route_arrival).to be_a(String)
     end
 
     it "has a station search call" do 
@@ -26,6 +26,8 @@ RSpec.describe SearchFacade do
     it "has the station and route info in a hash" do 
       expect(@facade.station_route_info).to be_a(Hash)
       expect(@facade.station_route_info.keys).to eq([:station, :route])
+      expect(@facade.station_route_info[:station]).to be_a(Station)
+      expect(@facade.station_route_info[:route]).to be_a(Route)
     end
   end
 end

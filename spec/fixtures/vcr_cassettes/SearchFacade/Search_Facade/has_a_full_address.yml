@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 16 Apr 2023 00:47:14 GMT
+      - Sun, 16 Apr 2023 01:24:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -39,7 +39,7 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Last-Modified:
-      - Sun, 16 Apr 2023 00:47:14 GMT
+      - Sun, 16 Apr 2023 01:24:26 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Strict-Transport-Security:
@@ -61,13 +61,13 @@ http_interactions:
       X-Ratelimit-Limit:
       - '1000'
       X-Ratelimit-Remaining:
-      - '962'
+      - '906'
       X-Request-Id:
-      - 69e7775862b77d22e8918ffcab2f7a54
+      - 5563f1cbfa39aa9351078bd6895da3cd
       X-Runtime:
-      - '0.014216'
+      - '0.011019'
       X-Vcap-Request-Id:
-      - '009487e1-3c82-4e15-5847-2612fb94d597'
+      - fd3f7d23-4bc0-4cbc-7884-797acc27afa0
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -92,12 +92,12 @@ http_interactions:
         S. University Drive","zip":"33328","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"cng_has_rng":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":1,"ev_network":"SemaCharge
         Network","ev_network_web":"https://semaconnect.com/","ev_other_evse":null,"ev_pricing":"$1.50/Hr
         Parking Fee","ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lng_has_rng":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"rd_blends":null,"rd_blends_fr":null,"rd_blended_with_biodiesel":null,"rd_max_biodiesel_level":null,"nps_unit_name":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["6273"],"posts":["18594"]},"distance":2.96246,"distance_km":4.76762},{"access_code":"public","access_days_time":"24
-        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2023-04-15","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":167501,"open_date":"2020-10-13","owner_type_code":null,"status_code":"E","restricted_access":null,"station_name":"Target
-        T2022 - Davie, FL","station_phone":"833-632-2778","updated_at":"2023-04-15T00:59:32Z","facility_type":null,"geocode_status":"GPS","latitude":26.04741,"longitude":-80.25048,"city":"Davie","intersection_directions":null,"plus4":null,"state":"FL","street_address":"5800
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2023-04-16","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":167501,"open_date":"2020-10-13","owner_type_code":null,"status_code":"E","restricted_access":null,"station_name":"Target
+        T2022 - Davie, FL","station_phone":"833-632-2778","updated_at":"2023-04-16T00:55:46Z","facility_type":null,"geocode_status":"GPS","latitude":26.04741,"longitude":-80.25048,"city":"Davie","intersection_directions":null,"plus4":null,"state":"FL","street_address":"5800
         S University Drive","zip":"33328","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"cng_has_rng":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["CHADEMO","J1772","J1772COMBO"],"ev_dc_fast_num":3,"ev_level1_evse_num":null,"ev_level2_evse_num":1,"ev_network":"Electrify
         America","ev_network_web":"https://www.electrifyamerica.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lng_has_rng":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"rd_blends":null,"rd_blends_fr":null,"rd_blended_with_biodiesel":null,"rd_max_biodiesel_level":null,"nps_unit_name":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["200090"],"posts":["200090-01","200090-02","200090-03","200090-50"]},"distance":2.9693,"distance_km":4.77863},{"access_code":"public","access_days_time":"24
-        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2023-04-15","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":207674,"open_date":"2022-03-05","owner_type_code":null,"status_code":"E","restricted_access":null,"station_name":"OBE
-        POWER NOVA WEST PARK","station_phone":"888-758-4389","updated_at":"2023-04-15T00:43:38Z","facility_type":null,"geocode_status":"GPS","latitude":26.079147,"longitude":-80.247742,"city":"Davie","intersection_directions":null,"plus4":null,"state":"FL","street_address":"3375
+        hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2023-04-16","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":207674,"open_date":"2022-03-05","owner_type_code":null,"status_code":"E","restricted_access":null,"station_name":"OBE
+        POWER NOVA WEST PARK","station_phone":"888-758-4389","updated_at":"2023-04-16T00:42:19Z","facility_type":null,"geocode_status":"GPS","latitude":26.079147,"longitude":-80.247742,"city":"Davie","intersection_directions":null,"plus4":null,"state":"FL","street_address":"3375
         SW 75th Ave","zip":"33314","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"cng_has_rng":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
         Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lng_has_rng":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"rd_blends":null,"rd_blends_fr":null,"rd_blended_with_biodiesel":null,"rd_max_biodiesel_level":null,"nps_unit_name":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL12536011"],"posts":["21695121","21695131"]},"distance":3.11736,"distance_km":5.0169},{"access_code":"public","access_days_time":"24
         hours daily","access_detail_code":null,"cards_accepted":null,"date_last_confirmed":"2023-04-16","expected_date":null,"fuel_type_code":"ELEC","groups_with_access_code":"Public","id":117630,"open_date":"2019-02-02","owner_type_code":null,"status_code":"E","restricted_access":null,"station_name":"OBE
@@ -161,5 +161,5 @@ http_interactions:
         EVOLUTION BROWARDCOLLEGE4","station_phone":"888-758-4389","updated_at":"2023-04-16T00:31:11Z","facility_type":null,"geocode_status":"GPS","latitude":26.081173,"longitude":-80.23341,"city":"Davie","intersection_directions":null,"plus4":null,"state":"FL","street_address":"3501
         Davie Road","zip":"33317","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"cng_has_rng":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
         Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lng_has_rng":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"rd_blends":null,"rd_blends_fr":null,"rd_blended_with_biodiesel":null,"rd_max_biodiesel_level":null,"nps_unit_name":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL5381771"],"posts":["15881421","15881431"]},"distance":4.00558,"distance_km":6.44636}]}'
-  recorded_at: Sun, 16 Apr 2023 00:47:14 GMT
+  recorded_at: Sun, 16 Apr 2023 01:24:26 GMT
 recorded_with: VCR 6.1.0

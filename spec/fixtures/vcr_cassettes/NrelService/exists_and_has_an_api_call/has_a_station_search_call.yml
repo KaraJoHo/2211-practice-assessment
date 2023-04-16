@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 16 Apr 2023 01:24:25 GMT
+      - Sun, 16 Apr 2023 01:26:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -39,7 +39,7 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       Last-Modified:
-      - Sun, 16 Apr 2023 01:24:25 GMT
+      - Sun, 16 Apr 2023 01:26:06 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Strict-Transport-Security:
@@ -61,13 +61,13 @@ http_interactions:
       X-Ratelimit-Limit:
       - '1000'
       X-Ratelimit-Remaining:
-      - '906'
+      - '885'
       X-Request-Id:
-      - ff9ecdd8ae6d184ea8d46849a6f20b9d
+      - ea3e60b7f13336d5586311cb12a6fba0
       X-Runtime:
-      - '0.009914'
+      - '0.013253'
       X-Vcap-Request-Id:
-      - 2720ec49-9194-4db4-60ac-f8ebfd6a554a
+      - f0ca2098-d7b0-452c-694f-af6ab6182a7e
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -161,5 +161,5 @@ http_interactions:
         EVOLUTION BROWARDCOLLEGE4","station_phone":"888-758-4389","updated_at":"2023-04-16T00:31:11Z","facility_type":null,"geocode_status":"GPS","latitude":26.081173,"longitude":-80.23341,"city":"Davie","intersection_directions":null,"plus4":null,"state":"FL","street_address":"3501
         Davie Road","zip":"33317","country":"US","bd_blends":null,"cng_dispenser_num":null,"cng_fill_type_code":null,"cng_psi":null,"cng_renewable_source":null,"cng_total_compression":null,"cng_total_storage":null,"cng_vehicle_class":null,"cng_has_rng":null,"e85_blender_pump":null,"e85_other_ethanol_blends":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
         Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"ev_pricing":null,"ev_renewable_source":null,"hy_is_retail":null,"hy_pressures":null,"hy_standards":null,"hy_status_link":null,"lng_renewable_source":null,"lng_vehicle_class":null,"lng_has_rng":null,"lpg_primary":null,"lpg_nozzle_types":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"rd_blends":null,"rd_blends_fr":null,"rd_blended_with_biodiesel":null,"rd_max_biodiesel_level":null,"nps_unit_name":null,"access_days_time_fr":null,"intersection_directions_fr":null,"bd_blends_fr":null,"groups_with_access_code_fr":"Public","ev_pricing_fr":null,"ev_network_ids":{"station":["USCPIL5381771"],"posts":["15881421","15881431"]},"distance":4.00558,"distance_km":6.44636}]}'
-  recorded_at: Sun, 16 Apr 2023 01:24:25 GMT
+  recorded_at: Sun, 16 Apr 2023 01:26:06 GMT
 recorded_with: VCR 6.1.0
