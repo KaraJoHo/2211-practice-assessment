@@ -11,7 +11,6 @@ class Route
 
   def all_maneuvers 
     @maneuvers.map do |maneuver| 
-      # require 'pry'; binding.pry
       maneuver[:narrative]
     end.join(" ")
   end

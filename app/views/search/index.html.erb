@@ -1,8 +1,14 @@
 <h1> Nearest Station </h1>
 
 <section class="station_info">
-  <p>Name: <%=@nearest_station.name%></p>
-  <p>Address: <%=@nearest_station.address%></p>
-  <p>Fuel Type: <%=@nearest_station.fuel_type%></p>
-  <p>Access Time: <%=@nearest_station.access_time%></p>
+  <p class="name">Name: <%=@nearest_station.name%></p>
+  <p class="address">Address: <%=@nearest_station.address%></p>
+  <p class="fuel">Fuel Type: <%=@nearest_station.fuel_type%></p>
+  <p class="access_time">Access Time: <%=@nearest_station.access_time%></p>
+</section>
+
+<section class="route_info">
+  <p>Distance: <%=@route.distance%></p>
+  <p>Travel Time: <%=@route.travel_time%></p>
+  <p>Directions: <%=@route.instructions%></p>
 </section>
