@@ -1,31 +1,19 @@
 class SearchFacade 
 
-  attr_reader :route_start
+  attr_reader :route_arrival
 
   def initialize(location)
     @location = location
-    @route_start = station_search.full_address
+    @route_arrival = station_search.full_address
   end
 
   def station_search
-    conn = Faraday.new(url: "https://developer.nrel.gov") do |faraday| 
-      faraday.headers["X-Api-Key"] = ENV["NREL_KEY"]
-    end
-
-    response = conn.get("/api/alt-fuel-stations/v1/nearest.json?location=#{@location}&fuel_type=ELEC")
-
-    parsed = JSON.parse(response.body, symbolize_names: true)
-
+    parsed = nrel_service.station_search(@location)
     Station.new(parsed[:fuel_stations].first) 
-  
   end
 
   def directions 
-    route_conn = Faraday.new(url: "https://www.mapquestapi.com")
-
-    route_response = route_conn.get("/directions/v2/route?key=#{ENV["MAPQUEST_KEY"]}&from=#{@location}&to=#{@route_start}")
-
-    parsed_route = JSON.parse(route_response.body, symbolize_names: true)
+    parsed_route = mapquest_service.directions(@location, @route_arrival)
     Route.new(parsed_route[:route])
   end
 
@@ -36,5 +24,13 @@ class SearchFacade
     info_hash[:route] = directions
 
     info_hash 
+  end
+
+  def nrel_service 
+    @nrel_service ||= NrelService.new
+  end
+
+  def mapquest_service 
+    @mapquest_service ||= MapquestService.new
   end
 end
